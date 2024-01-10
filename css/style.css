@@ -1,6 +1,7 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 /* header--------------------------- */
@@ -9,6 +10,12 @@ header {
     padding: 24px 150px;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    max-width: 1440px;
+    top: 0;
+    background-color: #FFF;
+    z-index: 1;
 }
 
 .burger_icon {
@@ -191,4 +198,59 @@ article {
     letter-spacing: 0.1px;
 }
 
-/* simagleebi gadaamowme yvelaferze  */
+/* footer------------------ */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    padding: 96px 150px;
+}
+.footer_div_container{
+    display: flex;
+    column-gap: 80px;
+}
+.footer_div1{
+    width: 99px;
+}
+.footer_div2{
+    width: 60px;
+}
+.footer_div3{
+    width: 60px;
+}
+.footer_title {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24.653px;
+    font-weight: 900;
+    line-height: 26.414px;
+    letter-spacing: -0.44px;
+}
+.footer_ul{
+     display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.nav_title{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 16px;
+}
+
+footer a {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    
+}
