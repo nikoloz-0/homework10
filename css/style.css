@@ -63,7 +63,7 @@ header {
 /* section 1 ----------------------------------------- */
 .section1 {
     display: flex;
-    background-image: url("/images/cover-1440.png");
+    background-image: url(../images/cover-1440.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
