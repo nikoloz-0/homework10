@@ -19,4 +19,24 @@
     .section1_box{
         width: calc(574 / 745 * 100%);
     }
+    /* section 2  */
+    .section_2{
+        padding: 24px 24px;
+    }
+    .section2_img{
+        height: 320px;
+    }
+    .section2_div{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .section2_text{
+        width: 100%;
+        text-align: center;
+    }
+    .section2_p{
+        width: 100%;
+        text-align: center;
+    }
 }

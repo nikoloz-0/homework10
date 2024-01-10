@@ -1,24 +1,49 @@
-@media (max-width: 650px){
+@media (max-width: 650px) {
+
     /* header----------------------------------- */
-    .header_nav{
+    .header_nav {
         display: none;
     }
-    .button_a{
+
+    .button_a {
         display: none;
     }
-    .burger_icon{
+
+    .burger_icon {
         display: flex;
     }
 }
-@media (max-width: 498px){
-    .section1_text{
+
+@media (max-width: 498px) {
+    .section1_text {
         font-size: 28px;
-        
+
     }
 }
-@media (max-width: 388px){
-    .section1_text{
+
+@media (max-width: 388px) {
+    .section1_text {
         font-size: 24px;
         line-height: 32px;
+    }
+}
+
+@media (max-width: 376px) {
+    .section_2 {
+        gap: 32px;
+    }
+
+    .section2_img {
+        height: 240px;
+    }
+
+    .section2_text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .section2_p {
+        font-size: 14px;
+        line-height: 22px;
     }
 }

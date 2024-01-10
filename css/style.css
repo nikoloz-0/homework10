@@ -71,7 +71,7 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-   
+
 }
 
 .section1_a {
@@ -100,3 +100,48 @@ header {
     line-height: 24px;
     cursor: pointer;
 }
+
+/* section 2  */
+.section_2 {
+    display: flex;
+    background-color: #000;
+    padding: 60px 150px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 160px;
+}
+
+.section2_div {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    row-gap: 20px;
+}
+
+.section2_text {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+}
+
+.section2_p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.section2_img{
+    width: 490px;
+    height: 400px;
+    background-image: url(../images/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+/* simagleebi gadaamowme yvelaferze  */
