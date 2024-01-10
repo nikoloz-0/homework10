@@ -1,0 +1,51 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header--------------------------- */
+header {
+    display: flex;
+    padding: 24px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.burger_icon{
+    display: none;
+}
+.header_text {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.44px;
+
+}
+
+.header_ul {
+    display: flex;
+    column-gap: 36px;
+}
+
+.header_li_link a {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.44px;
+}
+
+.header_button {
+    padding: 12px 18px 12px 19px;
+    border-radius: 32px;
+    background: #524A44;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: -0.44px;
+    cursor: pointer;
+}
