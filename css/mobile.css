@@ -29,7 +29,14 @@
 }
 
 @media (max-width: 376px) {
+    /* section 1 */
+    .section1{
+        height: 240px;
+    }
     /* section 2---------------------------------------- */
+    .section2_div{
+        height: 208px;
+    }
     .section_2 {
         gap: 32px;
     }

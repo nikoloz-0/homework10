@@ -10,12 +10,6 @@ header {
     padding: 24px 150px;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 100%;
-    max-width: 1440px;
-    top: 0;
-    background-color: #FFF;
-    z-index: 1;
 }
 
 .burger_icon {
