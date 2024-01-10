@@ -1,0 +1,12 @@
+@media (max-width: 650px){
+    /* header----------------------------------- */
+    .header_nav{
+        display: none;
+    }
+    .button_a{
+        display: none;
+    }
+    .burger_icon{
+        display: flex;
+    }
+}
