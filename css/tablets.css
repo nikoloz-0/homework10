@@ -1,6 +1,22 @@
+@media (max-width: 866px){
+    .section1_text{
+        font-size: 46px;
+    }
+}
 @media (max-width: 745px){
     /* header-------------------- */
     header{
         padding: 24px 24px;
+    }
+    /* section 1 -------------- */
+    .section1{
+        height: 320px;
+    }
+    .section1_text{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .section1_box{
+        width: calc(574 / 745 * 100%);
     }
 }
