@@ -29,6 +29,7 @@
 }
 
 @media (max-width: 376px) {
+    /* section 2---------------------------------------- */
     .section_2 {
         gap: 32px;
     }
@@ -45,5 +46,9 @@
     .section2_p {
         font-size: 14px;
         line-height: 22px;
+    }
+    /* section3 -----------------------------*/
+    .section3{
+        margin: 32px 24px;
     }
 }

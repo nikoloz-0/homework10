@@ -39,4 +39,17 @@
         width: 100%;
         text-align: center;
     }
+    /* section 3 ------------------ */
+    .section3 {
+        margin: 40px 24px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    article{
+        width: 100%;
+        text-align: center;
+    }
+    .article_div{
+        justify-content: center;
+    }
 }

@@ -30,4 +30,8 @@
     .section2_p {
         width: calc(440 / 960 * 100%);
     }
+    /* section 3 --------------------- */
+    .section3 {
+        margin: 80px 32px;
+    }
 }
